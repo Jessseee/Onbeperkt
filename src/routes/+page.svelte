@@ -39,12 +39,12 @@
   </div>
 </header>
 
-<main class="mx-auto mb-[3em] w-1/2 max-w-[600px]">
+<main class="mx-auto mb-[3em] max-w-[600px] px-[2em] md:w-2/3">
   <Checklist />
 </main>
 
 <style>
   header {
-    clip-path: polygon(0 0, 100% 0, 100% 80%, 0% 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%);
   }
 </style>

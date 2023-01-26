@@ -16,7 +16,7 @@
   });
 </script>
 
-<h1 class="mb-[0.25em] text-3xl font-bold">Toegankelijkheidsbeoordeling</h1>
+<h1 class="mb-[0.25em] text-3xl font-bold">Toegankelijkheids&#173;beoordeling</h1>
 <p class="mb-[1em] text-lg">
   De onderstaande checklist is de eerste stap in het evalueren van de toegankelijkheid van uw
   bedrijf.
