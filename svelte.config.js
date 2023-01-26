@@ -11,6 +11,9 @@ const config = {
       assets: 'build',
       fallback: '404.html',
     }),
+    paths: {
+      base: '/Onbeperkt',
+    },
   },
 
   extensions: ['.svelte', '.md'],
@@ -25,10 +28,6 @@ const config = {
       },
     }),
   ],
-
-  paths: {
-    base: '/Onbeperkt',
-  },
 };
 
 export default config;
