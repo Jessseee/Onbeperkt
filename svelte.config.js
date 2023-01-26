@@ -25,6 +25,10 @@ const config = {
       },
     }),
   ],
+
+  paths: {
+    base: '/Onbeperkt',
+  },
 };
 
 export default config;
