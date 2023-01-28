@@ -21,7 +21,9 @@
       if (el.checked !== e.target.checked) el.click();
     });
 
-    $store[e.target.id] = e.target.checked ? true : undefined;
+    document.querySelectorAll('#checklist input').forEach((el) => {
+      $store[el.id] = el.checked;
+    });
   }
 </script>
 

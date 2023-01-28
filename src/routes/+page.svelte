@@ -1,16 +1,13 @@
 <script>
   import Checklist from '$lib/components/checklist/Checklist.svelte';
   import { base } from '$app/paths';
+  import LinkButton from '../lib/components/LinkButton.svelte';
 </script>
-
-<svelte:head>
-  <title>Onbeperkt Borne</title>
-</svelte:head>
 
 <header class="overflow-hidden bg-indigo-500 text-center text-white sm:text-left md:flex">
   <div class="relative mb-[3em] hidden w-1/2 lg:block">
     <img
-      src="{base}/images/header-illustration.png"
+      src="{base}/images/header.webp"
       alt="Illustration of people with and without disabilities standing together." />
     <small class="absolute bottom-[75px] left-[70px]">
       Image by
@@ -30,17 +27,18 @@
     </h2>
     <p class="text-xl">
       <span class="mt-[0.5em]">Is uw bedrijf toegankelijk?</span>
-      <a
-        href="{base}/#checklist"
-        class="mt-[0.5em] ml-[0.5em] inline-block rounded-full bg-emerald-500 px-[1.25em] py-[0.25em] text-base drop-shadow-sm transition-all hover:translate-y-[-0.1em] hover:drop-shadow-lg">
-        Gebruik de checklist
-      </a>
+      <LinkButton href="{base}/#checklist" class="bg-emerald-500 text-base text-white">
+        Gebruik de checklist!
+      </LinkButton>
     </p>
   </div>
 </header>
 
 <main class="mx-auto mb-[3em] max-w-[600px] px-[2em] md:w-2/3">
   <Checklist />
+  <LinkButton href="{base}/info" class="bg-indigo-500 text-white">
+    Is mijn bedrijf toegankelijk?
+  </LinkButton>
 </main>
 
 <style>
